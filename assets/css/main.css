@@ -4,13 +4,28 @@
     box-sizing: border-box;
 }
 
+
+.container{
+width: calc(100% - 330px);
+margin: 0 auto;
+}
+
+.row{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .header{
-    display: flex;
-    gap:232.5px;
     padding: 21.84px 0;
-    margin: 0 165px;
+    
 
 }
+
+
+
+
 
 .list ul{
     display: flex;
@@ -23,19 +38,92 @@
     list-style-type: none;
     gap:24px;
 }
+.menu{
+    display: none;
+    width: 20px;
+}
+.shopping{
+    display: none;
+
+}
+@media screen and (min-width: 0px) and (max-width: 968px){
+    .list{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .shopping{
+        display: flex;
+    }
+ 
+}
 .collection_section{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+   
     gap: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin: 0 165px;
+  
 }
 
 .collection{
     width: calc((100% - 90px) / 4);
+    text-align: center;
 }
+
+@media screen and (min-width: 0px) and (max-width: 425px){
+    .container{
+        width: calc(100% - 50px);
+    }
+   .collection .row{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .collection{
+        width: 100%;
+        text-align: center;
+
+    }
+}
+ @media screen and (min-width: 426px) and (max-width: 768px){
+    
+    .container{
+        width: calc(100% - 100px);
+        
+    }
+    
+
+    .collection{
+        width: calc((100% - 30px) / 2);
+        text-align: center;
+    }
+
+    .list ul{
+        gap: 30px;
+    }
+}
+ @media screen and (min-width: 769px) and (max-width: 968px){
+    
+    .container{
+        width: calc(100% - 150px);
+        
+    }
+    
+
+    .collection{
+        width: calc((100% - 60px) / 3);
+        text-align: center;
+    }
+
+    .list ul{
+        gap: 30px;
+    }
+}
+    
+    
 
 img{
     width: 100%;
@@ -44,3 +132,8 @@ img{
 h2{
     margin-top: 23px;
 }
+ a{
+    text-decoration: none;
+    color: #3A3845;
+    
+ }
