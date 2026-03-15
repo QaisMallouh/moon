@@ -158,14 +158,19 @@ img{
 .description-sales h2{
     width: 50%;
     margin: auto;
+    font-family: Garamond;
+    font-size: 28px;
+    letter-spacing: 4%;
+    text-transform: uppercase;
 }
 .description-sales-center{
     align-items: center;
     text-align: center;
 }
 .description-sales p{
-    font-size: 14px;
-    font-weight: 600;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
     width: 45%;
     margin: auto;
     color: #807F86;
@@ -175,10 +180,10 @@ img{
 .description-sales a{
     
     border-bottom: solid black 1px;
-   
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 4px;
+   font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 6%;
     width: 20%;
 }
 @media screen and (min-width: 0px) and (max-width: 425px){
@@ -186,8 +191,14 @@ img{
     width: 100%;
 
    }
-   .description-sales h2 {
-    font-size: 16px;
+    .description-sales h2 {
+    font-size: 12px;
+  }
+  .description-sales a {
+    font-size: 10px;
+  }
+  .description-sales p {
+    font-size: 10px;
   }
   .img-sales {
     width: 100%;
@@ -200,7 +211,13 @@ img{
 
    }
    .description-sales h2 {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .description-sales a {
+    font-size: 10px;
+  }
+  .description-sales p {
+    font-size: 10px;
   }
   .img-sales {
     width: 100%;
@@ -232,6 +249,7 @@ img{
     text-transform: uppercase;
     letter-spacing: 0;
     margin-bottom: 48px;
+    font-family: Inter;
 }
 .best_sellers h3{
     font-size: 14px;
@@ -239,6 +257,7 @@ img{
     letter-spacing: 6%;
     text-transform: uppercase;
     margin-bottom: 12px;
+    font-family: Inter;
 
 
 }
@@ -247,6 +266,7 @@ img{
 .best_sellers .price{
 font-size: 22px;
 font-weight: 500;
+font-family: Inter;
 }
 
 .best_sellers .item-content .description{
@@ -254,10 +274,11 @@ font-weight: 500;
     color: #807F86;
     margin-top: 24px;
     margin-bottom: 34px;
+    font-family: Inter;
 }
 .add-to-cart{
     padding: 15px 81px;
-    background-color: white;
+   font-family: Inter;
     border: solid 1px black;
     font-size: 14px;
     font-weight: 600;
@@ -308,10 +329,7 @@ font-weight: 500;
     display: flex;
     align-items: stretch;
 }
-.griid{
-    display: grid;
-     grid-template-rows: auto auto auto;
-}
+
 .description-history{
     width: 50%;
     background-color: #F7F6F5;
@@ -334,6 +352,7 @@ font-weight: 500;
 .description-history h2{
     width: 50%;
     margin: auto;
+    font-family: Garamond;
 }
 .description-history-center{
     align-items: center;
@@ -347,13 +366,14 @@ font-weight: 500;
     color: #807F86;
     margin-top: 24px;
     margin-bottom: 34px;
+    font-family: Inter;
 }
 .description-history a{
     
     border-bottom: solid black 1px;
-   
+   font-family: Inter;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 4px;
     width: 20%;
 }
@@ -379,6 +399,7 @@ font-weight: 500;
    }
    .description-history h2 {
     font-size: 16px;
+   
   }
   .img-history {
     width: 100%;
@@ -401,18 +422,21 @@ font-weight: 500;
 
 .new-arrivals h2{
     font-size: 30px;
-    font-weight: 700;
+    
     text-transform: uppercase;
     letter-spacing: 0;
     margin-bottom: 48px;
+    
+    font-family: Garamond;
+    font-weight: bold;
 }
 .new-arrivals h3{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 6%;
     text-transform: uppercase;
     margin-bottom: 12px;
-
+font-family: Inter;
 
 }
 .new-arrivals .item-arrivals-content {margin-top: 24px;}
@@ -420,6 +444,7 @@ font-weight: 500;
 .new-arrivals .price{
 font-size: 22px;
 font-weight: 500;
+font-family: Inter;
 }
 
 .new-arrivals .item-arrivals-content .description-arraivals{
@@ -427,6 +452,7 @@ font-weight: 500;
     color: #807F86;
     margin-top: 24px;
     margin-bottom: 34px;
+    font-family: Inter;
 }
 .add-to-cart-arrivals{
     padding: 15px 81px;
@@ -436,6 +462,7 @@ font-weight: 500;
     font-weight: 600;
     letter-spacing: 4px;
     width: 100%;
+    font-family: Inter;
 
 }
 @media screen and (min-width: 0px) and (max-width: 425px){
@@ -487,6 +514,7 @@ font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0;
     margin-bottom: 48px;
+    font-family: garamond;
 }
 .our-blug .container{
     
@@ -500,6 +528,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Inter;
 }
 
 .img-our-blug{
@@ -515,10 +544,12 @@ font-weight: 500;
 .description-our-blug h2{
     width: 50%;
     margin: auto;
+  
 }
 .description-our-blug-center{
     align-items: center;
     text-align: center;
+    
 }
 .description-our-blug p{
     font-size: 14px;
@@ -527,6 +558,7 @@ font-weight: 500;
     margin: auto;
     color: #807F86;
     margin-top: 24px;
+    font-family: Inter;
     margin-bottom: 34px;
 }
 .description-our-blug a{
@@ -537,6 +569,7 @@ font-weight: 500;
     font-weight: 600;
     letter-spacing: 4px;
     width: 20%;
+    font-family: Inter;
 }
 @media screen and (min-width: 0px) and (max-width: 425px){
    .our-blug .description-our-blug{
@@ -582,6 +615,7 @@ font-weight: 500;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0;
+    font-family: Garamond;
     
 }
 .sign-up .container{
@@ -596,6 +630,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Inter;
 }
 
 .description-sign-up-center{
@@ -606,6 +641,7 @@ font-weight: 500;
 .description-sign-up h2{
     width: 100%;
     margin: auto;
+    font-family: Garamond;
 }
 
 .description-sign-up p{
@@ -613,6 +649,7 @@ font-weight: 500;
     font-weight: 600;
     width: 45%;
     margin: auto;
+    font-family: Inter;
    
     color: #807F86;
     margin-top: 24px;
@@ -621,7 +658,7 @@ font-weight: 500;
 .description-sign-up a{
     border: none;
     border-bottom: solid black 1px;
-   
+   font-family: Inter;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -637,6 +674,7 @@ font-weight: 500;
     font-size: 18px;
     text-align: center;
     outline: none;
+    font-family: Inter;
 }
 
 .sign-up-button{
@@ -648,6 +686,7 @@ font-weight: 500;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 4px;
+    font-family: Inter;
    
 }
 @media screen and (min-width: 0px) and (max-width: 425px){
@@ -691,6 +730,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: Inter;
 }
 .description-footer img{
     width: 20%;
@@ -707,8 +747,8 @@ font-weight: 500;
     font-size: 14px;
     font-weight: 600;
     width: 45%;
-   
-    color: #807F86;
+   font-family: Inter;
+    color: #E5E5E5;
     margin-top: 24px;
     margin-bottom: 34px;
 }
@@ -751,7 +791,8 @@ font-weight: 500;
   display:flex;
   gap:80px;
   width: 40%;
-  color: #807F86;
+  color: #E5E5E5;
+  font-family: Inter;
 }
 
 .column{
@@ -763,13 +804,15 @@ font-weight: 500;
   margin-bottom:15px;
   font-size:14px;
   letter-spacing:1px;
+  font-family: Inter;
 }
 
 .column a{
   text-decoration:none;
-  color:#cfcfd6;
+  color:#E5E5E5;
   margin-bottom:10px;
   font-size:14px;
+  font-family: Inter;
 }
 
 .column a:hover{
@@ -781,12 +824,12 @@ font-weight: 500;
   margin-top: 32px;
     margin-bottom: 80px;
     background-color: #3A3845;
-    border: solid 1px  #807F86;
-;
+    border: solid 1px  #E5E5E5;
+font-family: Inter;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 4px;
-     color: #807F86;
+     color: #E5E5E5;
 
 }
 
@@ -807,11 +850,37 @@ font-weight: 500;
   margin-top:20px;
   color:#cfcfd6;
   font-size:14px;
+  font-family: Inter;
 }
 
 .footer-bottom a{
-  color:#cfcfd6;
+  color:#CAC9CF;
   text-decoration:none;
+  font-family: Inter;
+}
+
+
+.add-to-cart:hover{
+    background-color: white;
+    color: #3A3845;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.sign-up-button:hover{
+     background-color: white;
+
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.add-to-cart-arrivals:hover{
+    background-color: white;
+  
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.add-to-cart,
+.add-to-cart-arrivals,.sign-up-button,.list{
+    transition: 0.2s;
 }
 
 
